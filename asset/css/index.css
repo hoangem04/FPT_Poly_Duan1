@@ -1,0 +1,1209 @@
+.container {
+    max-width: 1268px;
+    margin: 0 auto;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.box-header .vip {
+    background: white;
+    height: 0px;
+}
+
+.box-header .vip p {
+    text-align: center;
+    line-height: 5px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+
+}
+
+.box-header .vip a {
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-header .tab-nav .logo img {
+    max-width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+
+.box-header .tab-nav {
+    background: black;
+    position: relative;
+    height: 80px;
+    margin-bottom: 15px;
+
+
+}
+
+.box-header .tab-nav ul {
+    text-align: center;
+    margin-right: 25%;
+}
+
+.box-header .tab-nav ul li {
+    display: inline-block;
+    padding: 14px;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.box-header .tab-nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.box-header .tab-nav ul li a:hover {
+    color: #dc3546dd;
+}
+
+.box-header .tab-nav .search input {
+    position: absolute;
+    right: 17%;
+    top: 30px;
+    width: 250px;
+}
+
+.box-header .tab-nav .search i {
+    position: absolute;
+    right: 15%;
+    top: 33px;
+    color: white;
+}
+
+.box-header .tab-nav .menu-right {
+    position: absolute;
+    right: 131px;
+    top: 32px
+}
+
+.box-header .tab-nav .menu-right a {
+    margin-left: 25px;
+    color: white;
+}
+
+.box-header .tab-nav .menu-right p {
+    position: absolute;
+    top: 8px;
+}
+
+.box-header .tab-nav .menu-right a:hover {
+    color: #dc3546dd;
+}
+
+.box-header .tab-nav .search form button {
+    border: none;
+    background: white;
+}
+
+.box-content main .container-pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
+}
+
+.box-content main .container-pro .container-product-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-content main .container-pro .box-product-left .box-sale .text1 {
+    font-size: 30px;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.box-content main .container-pro .box-product-left .box-sale .text2 {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.box-content main .container-pro .box-product-left .product {
+    max-width: 155px;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+
+.box-content main .container-pro .box-product-left .product img {
+    max-width: 100%;
+    height: 210px;
+    transition: transform 0.3s ease-in-out
+}
+
+.box-content main .container-pro .box-product-left .product:hover img {
+    transform: scale(1.1);
+}
+
+.box-content main .container-pro .box-product-left .product .price-product del {
+    margin-right: 10px;
+    color: red;
+}
+
+.box-content main .container-pro .box-product-left .product .buy-now {
+    max-width: 100%;
+    background-color: #343a40;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.box-content main .container-pro .box-product-left .product .buy-now button {
+    background: #343a40;
+    border: none;
+    margin-left: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+.box-content main .container-pro .box-product-left .product .buy-now button:hover {
+    background: black;
+    color: white;
+}
+
+.box-content main .container-pro .box-product-left .product .buy-now a {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    line-height: 0px;
+}
+
+.box-content main .container-pro .box-product-left .product .buy-now:hover {
+    background: black;
+    color: white;
+}
+
+.box-content main .container-pro .container-product-left2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.box-content main .container-pro .container-product-left2 .product {
+    margin-left: 53px;
+    max-width: 153px;
+    margin-top: 15px;
+}
+
+main .container-pro .box-product-right img {
+    height: 692px;
+    object-fit: cover;
+    width: 100%;
+}
+
+main .title-pro2 {
+    background-color: #343a40;
+    max-width: 250px;
+    margin-left: 35%;
+    border-radius: 5px;
+    margin: 30px 40%;
+}
+
+main .title-pro2:hover {
+    background: black;
+    color: white;
+}
+
+main .title-pro2 a {
+    text-decoration: none;
+
+}
+
+main .title-pro2 p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main .content-best-skirt .box-pro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 115px;
+
+}
+
+main .content-best-skirt .box-pro .pro {
+    max-width: 230px;
+}
+
+main .content-best-skirt .box-pro .pro img {
+    max-width: 100%;
+}
+
+main .content-best-skirt .box-pro .pro .buy-now {
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+main .content-best-skirt .box-pro .pro .price del {
+    margin-right: 10px;
+    color: red;
+}
+
+main .content-best-skirt .box-pro .pro .buy-now a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+main .title-skirt p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.container .box-footer {
+    background: black;
+    margin-top: 25px;
+}
+
+.container .box-footer footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container .box-footer .logo-shop img {
+    max-width: 125px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.container .box-footer footer .ifm1 {
+    margin-left: 50px;
+}
+
+.container .box-footer footer .ifm1 .text-introduce1 {
+    font-size: 30px;
+}
+
+.container .box-footer footer .ifm1 p {
+    color: white;
+}
+
+.container .box-footer footer .ifm2 {
+    margin-left: 50px;
+}
+
+.container .box-footer footer .ifm2 .text-introduce1 {
+    font-size: 30px;
+}
+
+.container .box-footer footer .ifm2 p {
+    color: white;
+}
+
+.container .box-footer footer .ifm3 {
+    margin-left: 50px;
+}
+
+.container .box-footer footer .ifm3 a {
+    color: white;
+}
+
+.container .box-footer footer .ifm3 .text-introduce1 {
+    font-size: 30px;
+}
+
+.container .box-footer footer .ifm3 img {
+    width: 225px;
+}
+
+.container .box-footer footer .ifm3 p {
+    color: white;
+}
+
+/*Login*/
+.container main .title-login p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container main .content-login {
+    border: 2px solid gray;
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.container main .content-login form {
+    line-height: 50px;
+}
+
+.container main .content-login .thongbaocapnhat p {
+    color: red;
+    text-align: center;
+}
+
+.container main .content-login form input {
+    display: block;
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: rgba(128, 128, 128, 0.342);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.container main .content-login form label {
+    margin-left: 25%;
+
+}
+
+.container main .content-login form button {
+    margin-left: 40%;
+    height: 37px;
+    width: 115px;
+    border-radius: 7px;
+    border: none;
+    background: #343a40;
+    color: white;
+}
+
+.container main .content-login form button:hover {
+    background: black;
+    color: white;
+}
+
+.container main .content-login .regisster-tk {
+    margin-top: 0px;
+}
+
+.container main .content-login .regisster-tk a {
+    text-decoration: none;
+}
+
+.container main .content-login .regisster-tk p {
+    text-align: center;
+    margin: 0px;
+    line-height: 35px;
+    color: blue;
+}
+
+/*end login*/
+/*don hang*/
+.container main .box-giohang {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.container main .box-giohang .total-price .box-title-total-price p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.container main .box-giohang .if-price {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.container main .box-giohang .if-price p {
+    margin-left: 15px;
+
+}
+
+.container main .box-giohang .if-price .text-vanchuyen strong {
+    color: red;
+}
+
+.container main .box-giohang .buy-now {
+    background: gray;
+    border-radius: 5px;
+}
+
+.container main .box-giohang .buy-now a {
+    text-decoration: none;
+}
+
+.container main .box-giohang .buy-now a:hover p {
+    background: #343a40;
+    color: white;
+}
+
+.container main .box-giohang .buy-now p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.container main .box-giohang .box-title-giohang p {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.container main .box-giohang .if-donhang {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.container main .box-giohang .if-donhang table {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.container main .box-giohang .if-donhang table thead tr td {
+    font-weight: bolder;
+}
+
+.container main .box-giohang .if-donhang table thead tr td a {
+    background: gainsboro;
+}
+
+.container main .box-giohang .if-donhang table tbody tr td a {
+    text-decoration: none;
+}
+
+.container main .box-giohang .if-donhang table tbody tr td p {
+    background: gainsboro;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container main .box-giohang .if-donhang table tbody tr td p:hover {
+    background: #343a40;
+    color: white;
+}
+
+.container main .box-giohang .title-if-user p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.container main .box-giohang .form-information-user form input {
+    display: block;
+    width: 99%;
+    height: 40px;
+}
+
+.container main .box-giohang .form-information-user form textarea {
+    display: block;
+    width: 99%;
+    height: 50px;
+}
+
+.container main .box-giohang .form-information-user form button {
+    width: 100%;
+    height: 45px;
+    margin-top: 26px;
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+.container main .box-giohang .form-information-user form button:hover {
+    background-color: #128091;
+}
+
+.container main .box-giohang .form-information-user form a {
+    text-decoration: none;
+}
+
+.container main .box-giohang .form-information-user form p {
+    background-color: #ffc107;
+    padding: 13px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container main .box-giohang .form-information-user form p:hover {
+    background-color: #d7a308;
+}
+
+.container main .box-giohang .if-donhang .box-sanpham-mumber {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.container main .box-giohang .if-donhang .box-sanpham-mumber .if-sanpham .if-sanpham-donhang {
+    margin-left: 15px;
+}
+
+/*end don hang*/
+/*register*/
+.container main .title-register p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container main .content-register {
+    border: 2px solid gray;
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.container main .content-register form {
+    margin: 10px 15px;
+    line-height: 25px;
+}
+
+.container main .content-register form label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container main .content-register form input {
+    display: block;
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: gainsboro;
+
+}
+
+.container main .content-register form button {
+    width: 30%;
+    height: 35px;
+    margin-left: 200px;
+    margin-top: 15px;
+    background: #505c68;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.container main .content-register form button:hover {
+    background: black;
+    color: white;
+}
+
+/*end register*/
+/*donhang*/
+.container main .box-content-donhang .box-title-donhang p {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.container main .box-content-donhang .content-donhang {
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+.container main .box-content-donhang .content-donhang .box-title-content-donhang {
+    border-bottom: 1px solid gray;
+
+}
+
+.container main .box-content-donhang .content-donhang .box-title-content-donhang p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.container main .box-content-donhang .content form label {
+    margin-left: 10px;
+    font-weight: bold;
+
+
+}
+
+.container main .box-content-donhang .content form input {
+    display: block;
+    width: 98%;
+    height: 40px;
+    margin-left: 10px;
+    background: gainsboro;
+    border: none;
+    border-radius: 5px;
+}
+
+.container main .box-content-donhang .content form .phuongthucthanhtoan {
+    position: relative;
+    display: flex;
+}
+
+.container main .box-content-donhang .content form .phuongthucthanhtoan label:nth-child(1) {
+
+    margin-left: 15px;
+}
+
+.container main .box-content-donhang .content form .phuongthucthanhtoan input {
+    max-width: 15px;
+    margin-top: -9px;
+}
+
+.container main .box-content-donhang .content form .trangthai-donhang p {
+    color: red;
+    margin: 0px 23px;
+}
+
+.container main .box-content-donhang .content form {
+    box-sizing: border-box;
+}
+
+.container main .box-content-donhang .content form table {
+    width: 100%;
+}
+
+.container main .box-content-donhang .content form tbody tr td {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.container main .box-content-donhang .content form table thead tr td {
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.container main .box-content-donhang .content form table tfoot tr td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.container main .box-content-donhang .content form button {
+    border: none;
+    background: grey;
+    color: white;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.container main .box-content-donhang .content form .trangthai-donhang {
+    display: flex;
+}
+
+/*end donhang*/
+/*dm sản phẩm*/
+.container main .box-content-sanpham .box-title-sanpham p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham .ct-sanpham {
+    max-width: 340px;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham .ct-sanpham span {
+    margin-left: 15px;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham .ct-sanpham button {
+    border: none;
+    background: #343a40;
+    height: 35px;
+    width: 100%;
+    color: white;
+    border-radius: 8px;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham .ct-sanpham button:hover {
+    background: black;
+    color: white;
+}
+
+.container main .box-content-sanpham .box-pro-sanpham .ct-sanpham img {
+    width: 100%;
+    height: 400px;
+}
+
+.container main .box-content-sanpham .box-ct-sanpham-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.container main .box-content-sanpham .box-ct-sanpham-2 .ct-pro {
+    width: 615px;
+    overflow: hidden;
+}
+
+.container main .box-content-sanpham .box-ct-sanpham-2 .ct-pro img {
+    width: 100%;
+    height: 630px;
+}
+
+.container main .box-content-sanpham .box-ct-sanpham-2 .ct-pro img:hover {
+    transform: scale(1.1s);
+}
+
+/*end danh mục sản phẩm*/
+/*thông tin tài khoản*/
+.container main .box-content-taikhoan .box-title-taikhoan p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan {
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgb(197, 195, 195);
+    position: relative;
+
+
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan label {
+    line-height: 35px;
+    font-weight: bold;
+    color: #505c68;
+    margin-left: 15px;
+
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan input {
+    margin-left: 15px;
+    border: none;
+    font-size: 16px;
+    width: 50%;
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan .logout {
+    display: flex;
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan .logout a {
+    text-decoration: none;
+
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan form button {
+    border: none;
+    background: #343a40;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    margin: 16px;
+    font-weight: bold;
+
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan form button:hover {
+    background: black;
+    color: white;
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan .logout p:hover {
+    background: black;
+
+}
+
+.container main .box-content-taikhoan .box-content-if-taikhoan .logout p {
+    color: white;
+    font-weight: bold;
+    background: #343a40;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+
+/*end thông tin tài khoản*/
+/*ct san pham*/
+.container main .box-content-ct-sanpham {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 64%;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham form button {
+    width: 97%;
+    border: none;
+    height: 35px;
+    background: #343a40;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham form button:hover {
+    background: black;
+    color: white;
+}
+
+.container main .box-content-ct-sanpham h3 {
+    margin: 0px;
+}
+
+.container main .box-content-ct-sanpham img {
+    width: 100%;
+    height: 490px;
+}
+
+.container main .box-ct-sanpham .box-title-sanpham p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham ul {
+    margin: 0px;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham ul li {
+    line-height: 30px;
+    list-style: none;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham input {
+    width: 40px;
+}
+
+.container main .box-content-ct-sanpham .if-sanpham .buy-button {
+    width: 100%;
+    border: none;
+    background: #343a40;
+    color: white;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.container main .box-content-ct-sanpham .mota-sp {
+    margin-left: 40px;
+}
+
+.container main .binhluan {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.container main .binhluan p {
+    margin: 10px 15px;
+
+}
+
+.container main .binhluan .boxtitle-bl {
+    border-bottom: 1px solid gray;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.container main .binhluan .boxtitle-bl p {
+    color: white;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.container main .binhluan .add-binhluan form input {
+    width: 400px;
+}
+
+.container main .binhluan .add-binhluan form button {
+    background: #343a40;
+    border: none;
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+.container main .binhluan .add-binhluan form button:hover {
+    background: black;
+    color: white;
+}
+
+.container main .binhluan .add-binhluan {
+    margin: 5px 15px;
+}
+
+.container main .sanpham-cl .boxtitle-spcl p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.container main .sanpham-cl .box-content-spcl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.container main .sanpham-cl .box-content-spcl .box-sp {
+    width: 300px;
+    margin-top: 15px;
+
+}
+
+.container main .sanpham-cl .box-content-spcl .box-sp img {
+    width: 100%;
+    height: 400px;
+}
+
+.container main .sanpham-cl .box-content-spcl .box-sp .buy-now button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    background: #343a40;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.container main .sanpham-cl .box-content-spcl .box-sp .buy-now button:hover {
+    background: black;
+    color: white;
+}
+
+/*end*/
+/*câu hỏi*/
+.breadcrumb-area {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.breadcrumb-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.jb-login-register_area {
+    padding: 50px 0;
+}
+
+.login-form {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form label {
+    font-weight: 700;
+}
+
+.login-form input {
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    line-height: 23px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+.login-form textarea {
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    line-height: 23px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.wrap-btn-sub {
+    margin-left: 30%;
+}
+
+.btn-submit {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/*end câu hỏi*/
+/*Liên hệ*/
+.login-form {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form label {
+    font-weight: 700;
+}
+
+.login-form input,
+.login-form textarea {
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    line-height: 23px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.wrap-btn-sub {
+    margin-left: 38%;
+}
+
+.btn-submit {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.address-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.address-container h2 {
+    text-align: center;
+}
+
+.address-info {
+    padding-top: 20px;
+    margin-left: 25%;
+}
+
+.address-info h5 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.map-container {
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 15px 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: 0;
+}
+
+/*end liên hệ*/
+/*cập nhật tài khoản*/
+.container .box-content-main main .box-title-cntk p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.container .box-content-main main .content-cn-taikhoan {
+    border: 1px solid gray;
+}
+
+.container .box-content-main main .content-cn-taikhoan form {
+    margin: 15px 18px;
+}
+
+.container .box-content-main main .content-cn-taikhoan form label {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.container .box-content-main main .content-cn-taikhoan form input {
+    display: block;
+    width: 95%;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background: gainsboro;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.container .box-content-main main .content-cn-taikhoan form button {
+    margin: 15px 0px;
+    height: 35px;
+    background: #343a40;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container .box-content-main main .content-cn-taikhoan form button:hover {
+    background: black;
+    color: white;
+}
+
+/*end cập nhật tài khoản*/
